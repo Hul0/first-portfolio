@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+html{
+    font-size: 100.5%;
+    font-family:"Jost", sans-serif ;
+    background: rgb(96,7,7);
+    background: rgb(51,7,96);
+    background: linear-gradient(0deg, rgba(51,7,96,1) 0%, rgba(96,7,7,1) 100%);
+    background-repeat: no-repeat;
+    scale: 100%;
+    text-align: center;
+    display: flex;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a {
+    display: block;
+}
+
+.main_div{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+
+body{
+    width: auto;
+    height: 1280px;
+    margin: 0;
+    margin-top: 5rem;
+    overflow-x: hidden;
+
+}
+
+header {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+h1,h2 {
+    color: azure;
+    align-items: center;
+    text-align: center;
+}
+h3{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+header img {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+}
+.welcome{
+    color: rgb(194, 197, 199);
+}
+.profile_photo{
+    display: flex;
+    align-items: center;}
+.bio{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.skill{
+    margin-top: 5%;
+    width: 80%;
+}
+.skill_icons{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.skill_icons img{
+    height: 12%;
+    width: 12%;
+    border-radius: 100%;
+    align-items: center;
+}
+.skill_icons img:hover{
+    cursor: pointer;
+}
+.contact{
+    margin-top: 4%;
+}
+.contact_icons {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact_icons img{
+    object-fit: contain;
+    height: 9%;
+    width: 9%;
+    align-items: center;
+}
+.contact_icons img:hover{
+    cursor: pointer;
+}
+.contact_icons #twitter{
+    border-radius: 50%;
+}
+
